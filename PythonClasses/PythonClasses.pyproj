@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7fb16424-e7bc-4543-846c-1275e6586836</ProjectGuid>
+    <ProjectGuid>3a870344-ba85-4d9e-9b61-231d5f7b2799</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>fibo.py</StartupFile>
+    <StartupFile>PythonClasses.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication1</Name>
-    <RootNamespace>PythonApplication1</RootNamespace>
+    <Name>PythonClasses</Name>
+    <RootNamespace>PythonClasses</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,12 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Example2.py" />
-    <Compile Include="Example1.py" />
-    <Compile Include="Example3.py" />
-    <Compile Include="fibo.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="PythonClasses.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -7,7 +7,7 @@ print ("Hello person")
 name = input('What is your name? ')
 print ('Hi, %s.' % name)
 
-print ("Welcome to VS");
+print ("Welcome to Python");
 
 for i in range (20):
     print (cos (radians (i)));

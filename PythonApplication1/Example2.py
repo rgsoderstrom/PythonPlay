@@ -7,7 +7,7 @@ from math import cos, radians
 def make_dot_string(x):
     rad = radians(x)                             # cos works with radians
     numspaces = int(20 * cos(rad) + 20)          # Scale to 0-40 spaces
-    st = '.' * numspaces + 'o'                   # Place 'o' after the spaces
+    st = '-' * numspaces + 'o'                   # Place 'o' after the spaces
     return st
 
 def main():
